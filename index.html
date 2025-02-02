@@ -1,0 +1,147 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPro Solutions - Modern Software Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+</head>
+<body class="light-mode">
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">TechPro Solutions</div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1 class="animated-text">Transforming Ideas into Digital Reality</h1>
+            <p class="subtitle">We craft innovative software solutions that drive business growth</p>
+            <button class="cta-button">Get a Quote</button>
+            <div class="hero-bg"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Custom websites and web applications built with cutting-edge technologies.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Apps</h3>
+                <p>Native and cross-platform mobile applications for iOS and Android.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-brain"></i>
+                <h3>AI Solutions</h3>
+                <p>Intelligent automation and machine learning integration for your business.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://jumpseller.com/images/learn/others/project-management.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured online shopping platform with AI-powered recommendations.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.teamly.com/blog/wp-content/uploads/2023/04/healthcare-project-management.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Healthcare App</h3>
+                    <p>Mobile application for patient management and telemedicine services.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfJ6TaQZ4SozXizNgd_l7hQ3Md_fbvym87g&s" alt="Project 3">
+                <div class="project-info">
+                    <h3>FinTech Dashboard</h3>
+                    <p>Real-time financial analytics and reporting system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-track">
+                <div class="testimonial">
+                    <p>"TechPro Solutions delivered beyond our expectations. Their team's expertise and professionalism are unmatched."</p>
+                    <cite>- John Doe, CEO</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Working with TechPro was a game-changer for our business. They truly understand modern technology."</p>
+                    <cite>- Jane Smith, CTO</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"The team's attention to detail and commitment to quality is exceptional. Highly recommended!"</p>
+                    <cite>- Mike Johnson, Founder</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="map">
+                    <img src="/api/placeholder/600/300" alt="Map">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechPro Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
